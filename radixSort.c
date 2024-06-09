@@ -26,7 +26,7 @@ void countSort(int list[], int n, int exp) {
         list[i] = output[i];
 }
 
-void radixsort(int list[], int n) {
+void radixSort(int list[], int n) {
     int m = getMax(list, n);
     int exp;
     for (exp = 1; m / exp > 0; exp *= 10)
@@ -51,7 +51,7 @@ int main() {
     n = size;
     printf("List of numbers before sort: \n");
     print(list, n);
-    radixsort(list, n);
+    radixSort(list, n);
     printf("\n\nList of numbers after sort: \n");
     print(list, n);
     printf("\n\n");
