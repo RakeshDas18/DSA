@@ -12,7 +12,7 @@ void push(){
 	} else {
 		printf("Enter the value of the elements: \n");
 		scanf("%d", &val);
-		top += 1;
+		top = top + 1;
 		stack[top] = val;
 	}
 }
