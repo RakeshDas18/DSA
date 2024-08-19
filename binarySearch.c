@@ -26,7 +26,7 @@ int main() {
 		mid = (low+high)/2;
 	}
 	if(low > high){
-		printf("%d is not found!!!", item);
+		printf("%d is not found! Try again!!!", item);
 	}
     return 0;
 }
