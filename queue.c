@@ -30,7 +30,7 @@ void deQueue(){
 }
 void display(){
 	if(rear == -1){
-		printf("Queue is empty.\n");
+		printf("Queue is empty!!!\n");
 	} else {
 		int i;
 		printf("Queue elements are: \n");
