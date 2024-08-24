@@ -128,9 +128,9 @@ void displayNode(){
 int main(){
     int n, value, pos, val, choice;
     
-    printf("-----------------------------------------------\n");
+    printf("---------------------------------------------\n");
 	printf("                        MENU               \n");
-	printf("-----------------------------------------------\n");
+	printf("---------------------------------------------\n");
 	printf("1. Insert multiple nodes into the linked list\n2. Insert at the beginning of the linked list\n");
 	printf("3. Delete the first node from the linked list\n4. Insert a node at any position\n5. Delete a node from any position\n");
 	printf("6. Display the linked list\n7. Exit");
